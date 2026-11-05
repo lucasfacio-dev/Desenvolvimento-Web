@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    table, tr, th, td {
+    border: 1px dashed rgb(255, 0, 0);
+    border-collapse: collapse;
+    text-align: center;
+    padding: 2%;
+}
+
+caption{
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.cabecalho{
+    background-color: rgb(255, 0, 0, 0.2);
+}
+
+</style>
+<body>
+
+    <table>
+        <caption>Trajetória Acadêmica e Profissional</caption>
+        <tr class="cabecalho">
+            <th rowspan="2" width="25%">Estudante</th>
+            <th colspan="2">Formação</th>
+            <th rowspan="2">Ano de conclusão</th>
+        </tr>
+         <tr class="cabecalho">
+            <th>Graduação</th>
+            <th>Pós-graduação</th>
+        </tr>
+        <tr>
+            <td>José</td>
+            <td>Ciência da Computação</td>
+            <td>Inteligência Artificial</td>
+            <td>2023</td>
+        </tr>
+         <tr>
+            <td>Maria</td>
+            <td>Engenharia de Software</td>
+            <td>Gestão de Projetos</td>
+            <td>2022</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
